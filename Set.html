@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="curds">
+        <div class="head">
+            <h1>CARD</h1>
+            <p>product management system</p>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="title" id="title">
+            <div class="price">
+                <input onkeyup="totle()" type="number" id="price" placeholder="price">
+                <input onkeyup="totle()" type="number" id="taxes" placeholder="taxes">
+                <input onkeyup="totle()" type="number" id="ads" placeholder="ads">
+                <input onkeyup="totle()" type="number" id="discount" placeholder="discount">
+                <small class="totale" id="T"></small>
+            </div>
+            <input type="text" placeholder="count" id="count">
+            <input type="text" placeholder="catégorie" id="catégorie">
+            <button class="btn" id="submit">Creat</button>
+        </div>
+        <div class="output">
+            <div class="Search">
+               <input type="text" id="search" placeholder="choiser mood Search">
+               <div class="SM">
+                 <button id="SBT">Search By title</button>
+                 <button id="SBC">Search By categorie</button>
+               </div>
+            </div>
+            <div id="deletAll"></div>
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>totale</th>
+                    <th>category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+                <tbody id="Tble">
+                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="JV.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-color: rgb(15, 1, 27);
+}
+.curds{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    margin: 10px 0;
+}
+.price input{
+    width: 20%;
+}
+input{
+    width: 100%;
+}
+button{
+    width: 100%;
+    height: 28px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(85, 33, 134);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    letter-spacing: 1px;
+    background-color: rgb(42, 4, 79);
+}
+.totale{
+    background-color: red;
+    border-radius: 5px;
+    width: 30px;
+    padding: 2px 4px;
+}
+.totale::before{
+    content: "Totale: ";
+
+}
+input{
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    color: white;
+    background-color: rgb(81, 52, 104);
+    transition: 0.2s;
+}
+input:focus{
+    background-color: rgb(117, 71, 158);
+    transform: scale(1.1);
+}
+.SM{
+    text-align: center;
+    margin-bottom:6px ;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.SM button{
+    width: 40%;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th,td{
+    padding: 6px;
+}
